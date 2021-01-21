@@ -1,0 +1,23 @@
+@import "../../global/variables.scss";
+@import "../../global/mixin.scss";
+
+.vdCard {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(32, 75, 146, 0.15);
+  border-radius: 5px;
+  color: $text-normal;
+  font-size: 13px;
+  width: 470px;
+  height: 125px;
+
+  @include font-regular;
+
+  .daysContainer {
+    @include flex;
+  }
+}
+
+.vd {
+  font-size: 18px;
+  color: #333d47;
+}

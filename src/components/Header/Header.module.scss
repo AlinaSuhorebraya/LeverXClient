@@ -1,0 +1,65 @@
+@import "../../global/variables.scss";
+@import "../../global/mixin.scss";
+
+header {
+  @include flex;
+
+  padding: 0 120px;
+  background: $background;
+  color: $text-full;
+  height: 68px;
+
+  .logo {
+    padding-left: 14.82px;
+  }
+
+  .p2 {
+    font-size: 15px;
+  }
+
+  .p1 {
+    font-size: $text_extra_small;
+    color: $text-blue;
+  }
+
+  nav {
+    @include flex;
+
+    width: 254px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgba(246, 248, 253, 0.3);
+
+    .actionClick {
+      color: $text-full;
+      border-bottom: 3px solid #5495ff;
+      padding: 23px;
+    }
+  }
+
+  .nav {
+    @include flex;
+  }
+
+  .dispatch {
+    width: 32px;
+    height: 32px;
+    background: url("../../assets/CR.png") no-repeat 50%/cover;
+  }
+
+  .logout {
+    width: 32px;
+    height: 32px;
+    background: url("../../assets/Log out.png") no-repeat 50%/cover;
+  }
+
+  .profile {
+    border-radius: 23px;
+    width: 124px;
+    height: 32px;
+    background: url("../../assets/Group 5.png") no-repeat 50%/cover;
+  }
+}

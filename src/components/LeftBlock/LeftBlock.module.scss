@@ -1,0 +1,6 @@
+@import "../../global/variables.scss";
+@import "../../global/mixin.scss";
+
+.leftBlock {
+  @include flex-column;
+}

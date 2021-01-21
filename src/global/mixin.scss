@@ -1,0 +1,17 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin font-regular {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
