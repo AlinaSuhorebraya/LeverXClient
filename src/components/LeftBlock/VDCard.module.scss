@@ -7,17 +7,44 @@
   border-radius: 5px;
   color: $text-normal;
   font-size: 13px;
+  margin-bottom: 10px;
   width: 470px;
   height: 125px;
-
+  @include flex-column;
+  justify-content: space-between;
   @include font-regular;
+
+  padding-top: 31px   ;
 
   .daysContainer {
     @include flex;
+    padding: 0 30px;
+
+  }
+  .icon{
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+margin-right: 5px;
+
+text-align: center;
+
+
+color: #AFB7BF;
+transform: rotate(90deg);
   }
 }
 
 .vd {
   font-size: 18px;
   color: #333d47;
+  padding: 0 30px;
+}
+
+.details{
+  background: #F6F8FD;
+border-radius: 0px 0px 5px 5px;
+@include flex;
+justify-content: center;
 }

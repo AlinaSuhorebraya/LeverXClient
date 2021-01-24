@@ -9,6 +9,7 @@ export function VDCard() {
         <p>Available</p>
         <p>147</p>
       </div>
+      <div className = {styles.details}><span className = {styles.icon}>»</span><span>more details</span></div>
     </div>
   );
 }
